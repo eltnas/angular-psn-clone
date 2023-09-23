@@ -1,0 +1,32 @@
+.container__card-pricing{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0,0,0,0.8);
+    color: antiquewhite;
+    font-family: Calibri;
+    display: flex;
+    flex-direction: column;
+}
+
+.container__card-pricing > .card-title{
+    margin-bottom: 5px;
+}
+.container__card-pricing > .card-value{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__card-pricing > .card-value > .value-console{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__card-pricing > .card-value > .value-console > span{
+    color: aqua;
+    font-weight: bold;
+    margin-right: 5px;
+}

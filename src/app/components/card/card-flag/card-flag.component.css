@@ -1,0 +1,17 @@
+.container__card-flag{
+    position: absolute;
+    bottom: 90px;
+    right: 0;
+}
+
+.container__card-flag > .content {
+    display: grid;
+    place-items: center;
+    background-color: #0d0d0d;
+    color: white;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    height: 40px;
+    padding: 0 40px;
+}
